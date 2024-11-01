@@ -1,0 +1,95 @@
+
+.title{
+    width:fit-content;
+    text-align:left;
+    display:inline;
+
+}
+
+.parents{
+    float:left;
+    
+}
+
+
+h2{
+    margin:5px;
+}
+
+p{
+    margin:5px;
+}
+
+.product{
+    margin: 10px 10px 10px 15px ;
+    float:left;
+    width: 17.5%;
+    border:1px solid black;
+    padding:5px;
+}
+
+.price{
+    float:left;
+    color:green;
+}
+
+.discount{
+    color:red;
+    text-decoration-line:line-through ;
+    text-align: left;
+    float: left;
+}
+
+.product img{
+    width:100%;
+}
+
+.buttonCart{
+    background-color: rgb(52, 82, 252);
+    color: white;
+    float: left;
+    margin: 5px 10px 0 15px;
+    padding-right: 20px;
+    padding-left:20px;
+    border: 2px rgb(52, 82, 252) solid;
+    text-align: left;
+    padding-bottom: 5px;
+
+}
+
+.buttonCart p{
+    margin: 5px;
+    float: right;
+    padding-left: 5px;
+    font-size:18px;
+}
+
+.buttonCart i{
+   margin-top:5px; 
+   font-size: 20px;
+}
+
+.favouriteButton{
+    background-color: white;
+    border: 2px rgb(52, 82, 252) solid;
+    margin-top: 5px;
+    margin-right: 20px;
+    float: right;
+    width: fit-content;
+    padding-top: 10px;
+    padding-right:15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
+
+
+
+.favouriteButton i{
+    font-size: 18px;
+    color: rgb(52, 82, 252);
+}
+
+
+.clearfix{
+    clear: both;
+}
